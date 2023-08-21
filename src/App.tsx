@@ -12,10 +12,10 @@ function App() {
 
   // upload image handler
   const uploadSourceImageInputRef = React.useRef<HTMLInputElement>(null)
-  const [sourceImageSrc, setSourceImageSrc] = React.useState('src/assets/images/placeholder.jpg')
+  const [sourceImageSrc, setSourceImageSrc] = React.useState('./placeholder.png')
 
   const uploadTargetImageInputRef = React.useRef<HTMLInputElement>(null)
-  const [targetImageSrc, setTargetImageSrc] = React.useState('src/assets/images/placeholder.jpg')
+  const [targetImageSrc, setTargetImageSrc] = React.useState('./placeholder.png')
 
   React.useEffect(() => {
     // set src for Source Image
