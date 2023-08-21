@@ -74,7 +74,7 @@ function App() {
           </Box>
         </Box>
         <Box sx={{
-          display: 'grid',
+          margin: 'auto'
         }}>
           <ReactCompareSlider
             handle={<ReactCompareSliderHandle buttonStyle={{ display: 'none' }} linesStyle={{ height: portraitChecked ? '0.1rem' : '100%', width: portraitChecked ? '100%' : '0.1rem', color: 'red' }} />}
